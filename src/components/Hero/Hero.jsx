@@ -7,8 +7,8 @@ const Hero = () => {
       <div className={styles.content}>
         <h2 className={styles.title}>Hello, I'm Valentin</h2>
         <p className={styles.description}>
-          24 years old, ambitious young man who wants to progress as a
-          developer!
+          24 years old, ambitious young man who wants to develop user
+          interfaces!
         </p>
         <a
           className={styles.contactBtn}
