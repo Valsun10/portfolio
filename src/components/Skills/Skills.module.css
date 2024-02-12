@@ -64,3 +64,9 @@
   height: 105px;
   object-fit: contain;
 }
+
+@media screen and (max-width: 900px) {
+  .skills_container {
+    padding: 50px 20px;
+  }
+}

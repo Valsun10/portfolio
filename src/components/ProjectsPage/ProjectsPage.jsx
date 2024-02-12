@@ -1,5 +1,8 @@
 import styles from "./ProjectsPage.module.css";
 import projectImg from "../../assets/projects/project.png";
+import digibook from "../../assets/projects/digibook.png";
+import gpt from "../../assets/projects/gpt.png";
+import automania from "../../assets/projects/automania.png";
 
 const ProjectsPage = () => {
   return (
@@ -7,7 +10,7 @@ const ProjectsPage = () => {
       <h1>Projects</h1>
       <div className={styles.projects_container}>
         <div className={styles.project_item}>
-          <img src={projectImg} alt="project image" />
+          <img src={digibook} alt="project image" />
           <h1>Project A</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere at
@@ -26,7 +29,7 @@ const ProjectsPage = () => {
           </div>
         </div>
         <div className={styles.project_item}>
-          <img src={projectImg} alt="project image" />
+          <img src={gpt} alt="project image" />
           <h1>Project A</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere at
@@ -45,7 +48,7 @@ const ProjectsPage = () => {
           </div>
         </div>
         <div className={styles.project_item}>
-          <img src={projectImg} alt="project image" />
+          <img src={automania} alt="project image" />
           <h1>Project A</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere at
