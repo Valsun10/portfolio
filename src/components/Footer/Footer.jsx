@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.footer_left}>
         <h1>Contact</h1>
-        <h3>Fell free to reach out!</h3>
+        <h3>Feel free to reach out!</h3>
       </div>
       <div className={styles.footer_right}>
         <div>

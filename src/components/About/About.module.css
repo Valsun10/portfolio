@@ -119,6 +119,7 @@
 @media screen and (max-width: 600px) {
   .item_content h1 {
     font-size: 16px;
+    padding-bottom: 0;
   }
 
   .item_content p {
@@ -130,10 +131,15 @@
     height: 300px;
     object-fit: contain;
     padding-right: 15px;
+    margin-top: -55px;
   }
 
   .about_right {
-    padding-top: 10px;
+    padding-top: 00px;
+  }
+
+  .about_left {
+    padding: 0;
   }
 
   .about_right_item img {
