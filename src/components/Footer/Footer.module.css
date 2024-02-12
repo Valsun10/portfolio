@@ -1,0 +1,61 @@
+@import "../../vars.css";
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 50px;
+  background-color: var(--color-secondary);
+}
+
+.footer_left,
+.footer_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+}
+
+.footer_left h1 {
+  font-size: 80px;
+  color: var(--color-text);
+  letter-spacing: 1.3px;
+}
+
+.footer_left h3 {
+  font-size: 50px;
+  color: rgb(168, 168, 168);
+}
+
+.footer_right div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer_right div p {
+  color: var(--color-text);
+  font-size: 22px;
+  font-family: var(--font-robot);
+}
+
+@media screen and (max-width: 900px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+  .footer_left,
+  .footer_right {
+    align-items: center;
+  }
+
+  .footer_left h1 {
+    font-size: 62px;
+  }
+
+  .footer_left h3 {
+    font-size: 40px;
+  }
+}
