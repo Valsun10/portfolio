@@ -18,7 +18,7 @@ const About = () => {
               <p>
                 Two years of experience with HTML, CSS, JavaScript. I started
                 from learning about semantic html elements, then I started
-                styling them using css. i have practiced css frameworks like
+                styling them using css. I have practiced css frameworks like
                 SASS and LESS! I made a full one HTML, CSS and vanilla JS course
                 at Swift Academy!
               </p>

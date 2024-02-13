@@ -1,10 +1,9 @@
 @import "../../vars.css";
 
 .wrapper {
-  padding: 10px 80px 10px 80px;
+  padding: 10px 80px;
   display: flex;
   flex-direction: column;
-
   width: 100%;
 }
 
@@ -15,7 +14,7 @@
   background-color: #0c0c0c99;
   display: flex;
   align-items: center;
-  padding: 100px 50px;
+  padding: 50px 100px;
   border-radius: 15px;
   z-index: 10;
 }
@@ -94,6 +93,11 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .wrapper {
+    padding: 10px 50px;
+    margin: 50px auto;
+  }
+
   .wrapper_content {
     flex-direction: column;
   }
@@ -109,6 +113,7 @@
 
   .about_left {
     align-items: center;
+    padding: 0;
   }
 
   .about_left img {
@@ -126,7 +131,6 @@
 @media screen and (max-width: 600px) {
   .item_content h1 {
     font-size: 18px;
-    padding-bottom: 15px;
   }
 
   .item_content p {
@@ -137,15 +141,17 @@
     width: 250px;
     height: 300px;
     object-fit: contain;
-    padding-right: 15px;
+    margin-left: -60px;
+    margin-top: -70px;
   }
 
   .about_right {
-    padding-top: 00px;
+    padding-top: 0px;
   }
 
   .about_left {
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
   }
 
   .about_right_item img {

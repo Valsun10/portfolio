@@ -69,4 +69,8 @@
   .skills_container {
     padding: 50px 20px;
   }
+
+  .skills h1 {
+    font-size: 40px;
+  }
 }

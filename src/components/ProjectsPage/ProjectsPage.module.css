@@ -98,4 +98,12 @@
   .project_item_links h3 {
     font-size: 13px;
   }
+
+  .projects_container {
+    padding: 30px 50px;
+  }
+
+  .projects > h1 {
+    font-size: 40px;
+  }
 }
