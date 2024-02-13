@@ -127,4 +127,8 @@
   .contactBtn {
     font-size: 22px;
   }
+
+  .topBlur {
+    left: -250px;
+  }
 }

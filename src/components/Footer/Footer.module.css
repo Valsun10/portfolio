@@ -46,9 +46,11 @@
     justify-content: center;
     gap: 50px;
   }
-  .footer_left,
-  .footer_right {
+  .footer_left {
     align-items: center;
+  }
+  .footer_right {
+    align-items: flex-start;
   }
 
   .footer_left h1 {

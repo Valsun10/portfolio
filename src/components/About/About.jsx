@@ -14,33 +14,36 @@ const About = () => {
           <div className={styles.about_right_item}>
             <img src={cursorImg} alt="asd" />
             <div className={styles.item_content}>
-              <h1>Frontend Developer</h1>
+              <h1>HTML, CSS, JavaScript</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Assumenda eius debitis at eaque minus voluptatum ipsum et harum
-                sit non?
+                Two years of experience with HTML, CSS, JavaScript. I started
+                from learning about semantic html elements, then I started
+                styling them using css. i have practiced css frameworks like
+                SASS and LESS! I made a full one HTML, CSS and vanilla JS course
+                at Swift Academy!
               </p>
             </div>
           </div>
           <div className={styles.about_right_item}>
             <img src={cursorImg} alt="asd" />
             <div className={styles.item_content}>
-              <h1>Frontend Developer</h1>
+              <h1>React</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Assumenda eius debitis at eaque minus voluptatum ipsum et harum
-                sit non?
+                Last year I completed a React course at SoftUni and started
+                developing web applications with the aim of continuing my
+                development as a developer. I have been practicing the React
+                library for the past 7 months. All projects uploaded below on
+                the site are made with React.
               </p>
             </div>
           </div>
           <div className={styles.about_right_item}>
             <img src={cursorImg} alt="asd" />
             <div className={styles.item_content}>
-              <h1>Frontend Developer</h1>
+              <h1>TypeScript</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Assumenda eius debitis at eaque minus voluptatum ipsum et harum
-                sit non?
+                My next goal is to start learning TypeScript. To be
+                continued.....!
               </p>
             </div>
           </div>
